@@ -15,3 +15,8 @@ sed hoge |& less
 a=hogehoge
 echo $SHELL
 
+a=私は
+b=俳優よ
+
+$c=$?$?; echo $c
+
