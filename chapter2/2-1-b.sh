@@ -1,7 +1,12 @@
 a=私は
 b=俳優よ
 
-a+=$?; echo $c
+c=a+=$?
+echo $c
 
-b=${a:0:1}${a:?:?} ; echo $b
+b=${a:0:1}${a:?:?}
+echo $b
+
+c=${a/俳優/背骨麺}
+echo $c
 
